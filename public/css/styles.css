@@ -1,0 +1,177 @@
+.summary{
+  color: gray;
+}
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #452fc4;
+}
+
+#mainNavbar .navbar-brand {
+  color: #452fc4;
+  font-size: 1.5rem;
+}
+
+.bandInfo{
+  padding: 100px;
+  justify-content: center;
+  line-height: 50px;
+  color: white;
+ 
+}
+.albumI{
+  border-radius: 50%;
+}
+.Mainform{ 
+  max-width: 510px;
+  min-width: 324px;
+  margin: 50px auto 0px;
+  background-color: white;
+  border: 1px solid gray; 
+  border-bottom: 3px solid gray;
+}
+.row {
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 0 2.5em;}
+.header {
+    padding: 1.5em 2.5em;
+    border-bottom: 1px solid gray; 
+    background: url(../images/artists/Deborah_04.jpg) left -80px;
+    color: white;
+  }
+  .leaveFeedback{
+    display: flex;
+    width: 700px;
+    background-color: #867c80;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(/public/images/artists/Deborah_04.jpg);
+    opacity: 0.3;
+    color: white;
+  }
+  .submit{
+    color: white;
+    background-color: black;
+    justify-content: center;
+  }
+
+.topTracks{
+  list-style: none;
+}
+
+
+.form{
+  background-color: #ea1c2c;
+  width: 800px;
+  align-items: center;
+}
+.albumsList{
+  margin: 20px;
+  display: flex;
+  height: 200px;
+} 
+.albumsList img {
+  margin: 10px;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/mainPic/head_pic1.jpeg");
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  /* The image used */
+  background-image: url("/mainPic/head_pic1.jpeg");
+  /* Set a specific height */
+  min-height: 550px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+body {
+  background: black;
+  font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   text-shadow: 5px 2px 2px #452fc4;
+  color: white;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb ul {
+  color: white;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.headPic{
+ padding-left: 200px;
+}
+.artistImg{
+  padding-left: 200px;
+  max-width: 800px;
+}
+
+
+#headingGroup span {
+  color: #ea1c2c;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: rgb(222, 192, 222);
+  transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+  .blurb h2 {
+    font-size: 2rem;
+  }
+  .artistImg{
+  padding: 0;
+  max-width: 500px;
+}
+.headPic{
+ padding-left: 0px;
+}
+.iFrame{
+  padding: 0px;
+}
+}

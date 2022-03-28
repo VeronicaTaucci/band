@@ -1,0 +1,67 @@
+{
+    "artists": [
+        {
+            "albumName": "She sleeps",
+            "artist": "Deborah De Luca",
+            "stageName": "Deborah",
+            "summary": "A good fusion of techno records and minimal sounds without ever being taken for granted.: France, Spain, Portugal, Italy, Greece, Turkey, Switzerland, Germany, Morocco, Slovenia, Malaysia, Indonesia, Armenia, Russia, America and continues to produce music forever",
+            "aboutArtist": "<p>She was born on Thursday 24 July 1980 in Scampia, Italy. Deborah de is an Italian citizen and her zodiac sign is Libra. She is very popular they post constantly on Instagram account fo her fans.She worked for only some time. After she starts her career as a dancer in various nightclubs. Before she knows that making music is her passion. Deborah then moved back to Italy and met the many music DJ and producer Cennamo Giuseppe, who supported her in her career.</p>",
+            "albums": [
+                "Deborah_01.jpg",
+                "Deborah_02.jpg",
+                "Deborah_03.jpg",
+                "Deborah_04.jpg"
+            ],
+            "tracks": [
+                "As Wild As You Wanna Be",
+                "Acid Promises",
+                "Sugar",
+                "Let me Some",
+                "Deeper"
+            ]
+        },
+        {
+            "albumName": "Asura EP",
+            "artist": "Charlotte de witte",
+            "stageName": "Charlotte",
+            "summary": "In 2019, she launched her own label, KNTXT.[6] Artists such as Chris Liebing, Monoloc, Alignment have been welcomed to KNTXT.On December 31,2020, she performed at Tomorrowland, which was held online virtually due to COVID-19.",
+            "aboutArtist": "<p>Charlotte de Witte (born 21 July 1992) is a Belgian DJ and record producer, best known for her 'dark and stripped-back' brand of minimal techno and acid techno music. She has previously performed under the alias Raving George. She is the founder of the label KNTXT.</p>",
+            "albums": [
+                "charlotte_01.jpg",
+                "charlotte_02.jpg",
+                "charlotte_03.jpg",
+                "charlotte_04.jpg"
+            ],
+            "tracks": [
+                "Asura",
+                "Soma",
+                "Stigma",
+                "Tonight",
+                "No regrets"
+            ]
+        },
+        {
+            "albumName": "Fabric Presents",
+            "artist": "Amelie Lens",
+            "stageName": "Amelie",
+            "summary": "Lens gave up her work in the fashion industry in 2014, and began to DJ under the name Renée, playing mostly bass-heavy minimal techno, earning a residency at the Labyrinth Club in Hasselt, Belgium, where she built enough of a reputation to tour across Europe. More recently her high energy sets are known for their mixture of classic acid and tribal house influences along with more contemporary European techno sounds.",
+            "aboutArtist": "<p>Amelie Lens is a Belgian electronic music DJ, record producer, and owner of the Lenske record label. Her debut release came on Italian imprint Lyase, and soon after a trio of releases on Pan-Pot’s Second State. As a resident at Hasselt’s Labyrinth Club, Lens started curating her own nights under the name EXHALE.</p>",
+            "albums": [
+                "Amelie_01.jpg",
+                "Amelie_02.jpg",
+                "Amelie_03.jpg",
+                "Amelie_04.jpg"
+            ],
+            "tracks": [
+                "Theory of Relativity",
+                "Boiling",
+                "Nikita",
+                "Rave with me",
+                "Look ahead"
+            ]
+        }
+    ]
+}
+
+
+
