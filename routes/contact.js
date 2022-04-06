@@ -1,13 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const contactData = require('../data/contact.json'); //import comments json from conatact.json
-//console.log(contactData) //[{},{}]
+
 
 //read and wtite to a file
 const fs = require('fs');
+
+
+const contactData = require('../data/contact.json'); //import comments json from conatact.json
+//console.log(contactData) //[{},{}]
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
-
 
 
 router.get('/contact', (req, res) => {
@@ -22,7 +24,7 @@ router.get('/api',(req, res)=> {
 //submit new comment 
 router.post('/api', (req, res) => {
     //get data out of the header, scrape data, body parser router.use(express.json()) & router.use(express.urlencoder({extended:true}))
-    let { name, email, comment } = req.body;
+    let {name, email, comment} = req.body;
     //push it to the object in js (contactData obj)
     contactData.unshift(req.body);
     //wite to a file, on top: const fs = require('fs');
