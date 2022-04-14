@@ -160,6 +160,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .albumsList{
+    display: flex;
+    flex-direction: column;
+  }
   #headingGroup h1 {
     font-weight: 100;
     font-size: 3rem;
