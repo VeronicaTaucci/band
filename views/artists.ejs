@@ -17,26 +17,7 @@
     </head>
 
     <body>
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-            <a  class="navbar-brand">DJ</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/contact" class="nav-link">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://untold.com/tickets" class="nav-link">TICKETS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <%- include ('partials/nav.ejs') %>
         <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
             <h1>TechnoTrio</h1>
         </div>
@@ -61,14 +42,14 @@
                                                 <%= artistObj.albumName %>
                                             </h2>
                                             <p><a href=""></a></p>
-                                            <p><a href="/artists/<%= artistObj.stageName%>">by <%= artistObj.stageName
-                                                        %></a> </p>
+                                            <h5><a href="/artists/<%= artistObj.stageName%>">top tracks by <%= artistObj.stageName
+                                                        %></a> </h5>
                                             <p class="summary">
                                                 <%= artistObj.summary %>
                                             </p>
-                                            <ul>
+                                            <ul><span class="topTrack">Top tracks...</span>
                                                 <% tracks.forEach(picture=> { %>
-                                                    Top tracks: <li class="topTracks">
+                                                     <li class="topTracks">
                                                         <%= picture %>
                                                     </li>
                                                     <% }) %>

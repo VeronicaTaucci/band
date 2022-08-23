@@ -15,44 +15,21 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/styles.css" />
 
-        <title>My band</title>
+        <title>TECHNO TRIO</title>
     </head>
 
     <body>
-        <!-- <div class="parallax"></div> -->
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-            <a href="#" class="navbar-brand">DJ</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/artists" class="nav-link">ARTISTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/contact" class="nav-link">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://untold.com/tickets" class="nav-link">TICKETS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="parallax"></div>
+       <%- include ('partials/nav.ejs') %> 
         <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-            <h1>TechnoTrio</h1>
-            <h3 class="bandInfo">A good fusion of techno records and minimal sounds without ever being taken for granted: <br/>France, Spain, Portugal,
+            <h1 class="albumsTextIndx1">TechnoTrio</h1>
+            <h3 class="bandInfo albumsTextIndx3">A good fusion of techno records and minimal sounds without ever being taken for granted: <br/>France, Spain, Portugal,
             Italy, Greece, Turkey, Switzerland, Germany, Morocco, Slovenia, Malaysia, Indonesia, Armenia, Russia, America and
             continues to produce music forever
        </h3>
         </div>
         <section class="container-fluid px-0">
-            <div class="row align-items-center">
-                <!-- <div class="col-lg-6"> -->
-               
-                <!-- </div> -->
-            </div>
+        <div class="row align-items-center"></div>
         </section>
         <div class="parallax"></div>
         <section class="container-fluid px-0">
@@ -64,7 +41,7 @@
                 <div class="col-md-6 text-center order-1 order-md-2">
                     <div class="row justify-content-center">
                         <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                            <h2>TOP TRACKS</h2>
+                            <h2 class="albumsTextIndx1">TOP TRACKS</h2>
                             <ul>
                             <% tracks.forEach(picture=> { %>
                                 <li class="topTracks" > <%= picture %> </li>
@@ -75,22 +52,14 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
-
-        <div class="albums  ">
-            <div class="albumsList  ">
-                <!-- loop through artistIMG array -->
+        <div class="albums">
+            <h2 class="albumsText albumsTextIndx1">ALBUMS</h2>
+            <div class="albumsList">
+                <!-- loop through artistIMG array --> 
                 <% albums.forEach(picture=> { %>
-                    <img class="albumI" src="/images/artists/<%= picture %> " alt="">
-                    <% }) %>
-                        <!-- <img src="/images/artists/Amelie_01.jpg" alt="">
-                    <img src="/images/artists/Amelie_01.jpg" alt="">
-                    <img src="/images/artists/Amelie_01.jpg" alt="">
-                    <img src="/images/artists/Amelie_01.jpg" alt="">
-                    <img src="/images/artists/Amelie_01.jpg" alt="">
-                    <img src="/images/artists/Amelie_01.jpg" alt=""> -->
+                <img class="albumI" src="/images/artists/<%= picture %> " alt="">
+                <% }) %>
             </div>
         </div>
 

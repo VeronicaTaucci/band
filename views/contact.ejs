@@ -17,27 +17,8 @@
     </head>
 
     <body>
-        <!-- <div class="parallax"></div> -->
-        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-            <a href="http://localhost:3000/" class="navbar-brand">DJ</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navLinks">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/" class="nav-link">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://localhost:3000/contact" class="nav-link">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://untold.com/tickets" class="nav-link">TICKETS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <div class="parallax"></div>
+    <%- include ('partials/nav.ejs') %>
         <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
             <h1>TechnoTrio</h1>
         </div>
@@ -48,18 +29,13 @@
             </div>
             <div class="row body">
                 <form id="tweetForm" action="#">
-                    <p class="left">
                         <label for="first_name">First name</label>
-                        <input id="name" type="text" name="name" placeholder="username" id="" />
-                    </p>
-                    <p>
+                            <input id="name" type="text" name="name" placeholder="username" id="" class="form-control"/>
                         <label for="email">email <span class="req">*</span></label>
-                        <input id = "email" type="email" name="email" placeholder="john.smith@gmail.com" />
-                    </p>
-                    <p> <label for="comments">Comments</label>
-                        <input id = "comment" type="text" name="comment" placeholder="comment" id="">
-                    </p>
-                    <button class="submit">Submit</button>
+                            <input id = "email" type="email" name="email" placeholder="john.smith@gmail.com" class="form-control"/>
+                        <label for="comments">Comments</label>
+                            <textarea id = "comment" type="text" name="comment" placeholder="comment" id="" class="form-control"/></textarea>
+                        <button class="submit btn mt-3">Submit</button>
                 </form>
             </div>
         </div>
